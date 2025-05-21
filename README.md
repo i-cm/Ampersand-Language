@@ -1,22 +1,9 @@
-<!--
 
-If you're reading this then you might be looking for the hidden examples page...
-
-CONGRATULATIONS! You found it!
-Here it is: https://github.com/TodePond/GulfOfMexico/blob/main/res/res/Examples.md
-
--->
-
-> **New:** [DreamBerd has been renamed to Gulf of Mexico](https://github.com/TodePond/GulfOfMexico/releases/tag/v)
-
-[<img align="right" height="100" src="shapes.png">](https://github.com/TodePond/GulfOfMexico/blob/main/examples/Examples.md "Click here for the examples page.")
-
-# Gulf of Mexico
+# &
 
 ![Coverage](badges/coverage-109.svg)
 
-Gulf of Mexico is a perfect programming language. These are its features!<br>
-When you've finished reading through all the features, check out the [examples](https://github.com/TodePond/GulfOfMexico/blob/main/Examples.md).
+& is an even more perfect programming language. These are its features!<br>
 
 ## Exclamation Marks!
 
@@ -76,6 +63,16 @@ var var name = "Luke"!
 name = "Lu"!
 name.push("k")!
 name.push("e")!
+```
+
+## Inequality Declarations
+
+**New for &!**<br>
+& has an inequality declaration which can be defined as `var var x ;= 1` and when you try to assign x to 1, it throws an error. `var var x ;;= 1` removes an inequality declartion.
+
+```java
+var var x ;= 1!
+var var x = 1! // throws an error
 ```
 
 ## Immutable Data
@@ -163,11 +160,14 @@ Loops are a complicated relic of archaic programming languages. In GulfOfMexico,
 
 ## Installation
 
-To install Gulf of Mexico to your command line, first install the Gulf of Mexico installer.<br>
-To install the Gulf of Mexico installer, install the Gulf of Mexico installer installer.
+To install & to your command line, first install the & installer.<br>
+To install the & installer, install the & installer installer.
 
 **New for 2022!**<br>
-Due to the complicated installation process, you can now install the 'Create Gulf of Mexico App' app that installs everything for you!
+Due to the complicated installation process, you can now install the 'Create & App' app that installs everything for you!
+
+**New for &!**<br>
+If you use Arch Linux, then install "& for Arch" which is written in C++ so if you haven't installed C++ on Arch Linux, you'll touch the terminal even though "& for Arch" claims you can install it without touching the terminal.
 
 ## Booleans
 
@@ -186,7 +186,25 @@ function isKeyDown(key) => {
 }
 ```
 
-**Technical info:** Booleans are stored as one-and-a-half bits.
+**New for &!**<br>
+You can use this format: *x*b whch returns a `x * 100`% chance to return a true (which is not evaluated immediately).
+
+`true` = `1b`<br>
+`false` = `0b` and...<br>
+`maybe` = `0.5b`
+
+Now, "and" is simply just `A * B` and "or" is `A | B` which the equation is `;(;A * ;B)`.
+
+It's also worth to point out that if the if statement is fed a fractional part, it sometimes runs and sometimes it doesn't.
+
+```java
+if (0.5b) {
+   print("Yay!")! // Prints Yay! half of the time
+}
+```
+
+**Note!**<br>
+You can do `2b`, `1.5b` and even `-1b`. `2b` when fed to the if statement runs the statement twice (making a kind of a loop unfortunately), `1.5b` runs the statement once and half of the time runs the statement again and `-1b`, code in the statement will be reversed.
 
 ## Arithmetic
 
@@ -439,8 +457,6 @@ export add to "main.gom"!
 import add!
 add(3, 2)!
 ```
-
-By the way, to see Gulf of Mexico in action, check out [this page](https://github.com/TodePond/GulfOfMexico/blob/main/LICENSE.md).
 
 **Technical details:** Due to an executive order from President Trump, `import`ed units will be subject to a 25% tariff, that is, imported code will run 25% slower and, at random, 25% of your code (lines) will be lost.
 
@@ -767,7 +783,7 @@ print( // This is probably fine
 
 ## Copilot
 
-It's worth noting that GitHub CoPilot doesn't understand GulfOfMexico, which means that MicroSoft won't be able to steal your code.
+It's worth noting that GitHub CoPilot doesn't understand &, which means that MicroSoft won't be able to steal your code.
 
 This is great for when you want to keep your open-sourced project closed-source.
 
