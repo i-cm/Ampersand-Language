@@ -204,7 +204,7 @@ if (0.5b) {
 ```
 
 **Note!**<br>
-You can do `2b`, `1.5b` and even `-1b`. `2b` when fed to the if statement runs the statement twice (making a kind of a loop unfortunately), `1.5b` runs the statement once and half of the time runs the statement again and `-1b`, code in the statement will be reversed.
+You can do `2b`, `1.5b` and even `-1b`. `2b` when fed to the if statement runs the statement twice (making a kind of a loop unfortunately), `1.5b` runs the statement once and half of the time runs the statement again and `-1b`, code in the statement will be opposite-ed. For example, if the `const const x = 1` code is ran opposite, the variable x is now unassignesed
 
 ## Arithmetic
 
