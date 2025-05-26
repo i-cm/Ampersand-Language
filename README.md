@@ -204,7 +204,7 @@ if (0.5b) {
 ```
 
 **Note!**<br>
-You can do `2b`, `1.5b` and even `-1b`. `2b` when fed to the if statement runs the statement twice (making a kind of a loop unfortunately), `1.5b` runs the statement once and half of the time runs the statement again and `-1b`, code in the statement will be opposite-ed. For example, if the `const const x = 1` code is ran opposite, the variable x is now unassignesed
+You can do `2b`, `1.5b` and even `-1b`. `2b` when fed to the if statement runs the statement twice (making a kind of a loop unfortunately), `1.5b` runs the statement once and half of the time runs the statement again and `-1b`, code in the statement will be opposite-ed. For example, if the `const const x = 1` code is ran opposite, the variable x is now unassignesed.
 
 ## Arithmetic
 
@@ -323,6 +323,17 @@ Even zero.
 
 ```java
 const const name = Luke!
+```
+
+**New for &!**<br>
+Please remember to use the quotation marks from your language when defining strings.
+```java
+print(“Hello World”)!
+print(‘Hello World’)!
+print(„Hello World“)!
+print(‚Hello World’)!
+print(«Hello World»)!
+print(`Hello World`)! // You can also use this
 ```
 
 ## String Interpolation
