@@ -2,7 +2,7 @@
 
 Congratulations! You found the hidden examples page!
 
-Here are some examples of Gulf of Mexico in action!
+Here are some examples of & in action!
 
 ## Hello world
 
@@ -61,4 +61,18 @@ delete null!
 ## Autocomplete Example
 ```java
 c
+```
+
+## Truth-machine
+
+```java
+when (x >= 1) {
+   x++!
+   1?
+}
+
+when (x = 0) {
+   0?
+}
+const var x = input()!
 ```
